@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Client</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <button class="compose-button">Compose</button>
+      <ul class="email-list" id="email-list">
+        <!-- Email items will be added here using JavaScript -->
+      </ul>
+    </div>
+    <div class="email-content">
+      <div class="email-header">
+        <h1 id="email-subject">Email Subject</h1>
+        <p id="email-sender">Sender: sender@example.com</p>
+        <p id="email-date">Date: 2023-10-30</p>
+      </div>
+      <div class="email-body">
+        <p id="email-content">This is the email content.</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
